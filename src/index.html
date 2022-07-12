@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center items-center mx-auto p-6 gap-6">
+      <form action="/" class="" id="form">
+        <label for="location">Enter Location</label>
+        <input
+          type="text"
+          name="location"
+          id="location"
+          placeholder="City, State, Country"
+        />
+        <button type="reset" id="search">Search</button>
+      </form>
+
+      <div>Current City: <span id="city"></span></div>
+      <div>Current Temparature: <span id="temp"></span></div>
+      <div>Feels Like: <span id="feelsLike"></span></div>
+      <div><span id="coverage"></span></div>
+    </div>
+
+    <div></div>
+  </body>
+</html>
